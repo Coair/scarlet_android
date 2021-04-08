@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">base</string>
+
+    <string name="please_grant_authorization">您已经拒绝我们申请授权，请同意授权，否则功能将无法正常使用!</string>
+    <string name="grant">授权</string>
+    <string name="refuse">拒绝</string>
+    <string name="plz_do_in_system_setting">我们需要一些您拒绝或系统申请失败的权限，请手动在设置页面授权，否则功能不能正常使用!</string>
+    <string name="dp">dq</string>
+    <string name="log">log</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="are_you_sure_to_delete_it">您确定要删除吗？</string>
+    <string name="delete">删除</string>
+
+    <string name="i_know">知道了</string>
+
+    <!--EXCEPTION-->
+    <string name="error_configuration">打开串口失败:参数错误!</string>
+    <string name="error_security">打开串口失败:没有串口读/写权限!</string>
+    <string name="error_unknown">打开串口失败:未知错误!</string>
+
+    <string name="str_none" />
+    <string name="loading">Loading…</string>
+    <string name="load_failed">Load failed. click to retry!</string>
+    <string name="load_failed_no_network">Oops, network is lost!  click to retry</string>
+    <string name="empty">Empty!</string>
+</resources>

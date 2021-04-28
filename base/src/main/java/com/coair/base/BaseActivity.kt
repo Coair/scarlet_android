@@ -29,11 +29,11 @@ abstract class BaseActivity : AppCompatActivity() {
         }
     }
 
-    override fun getResources(): Resources1 {
-        return if (ScreenUtils.isLandscape())
-            AdaptScreenUtils.adaptHeight(super.getResources(), 1080)
-        else
-            AdaptScreenUtils.adaptWidth(super.getResources(), 1080)
-    }
+//    override fun getResources(): Resources1 {
+//        return if (ScreenUtils.isLandscape())
+//            AdaptScreenUtils.adaptHeight(super.getResources(), 1080)
+//        else
+//            AdaptScreenUtils.adaptWidth(super.getResources(), 1080)
+//    }
 
 }

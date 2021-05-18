@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.blankj.utilcode.util.*
 import com.coair.base.ProjectFrameConfig.logPath
+import com.tencent.mmkv.MMKV
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import java.io.File
@@ -58,6 +59,7 @@ abstract class FirstActivity : AppCompatActivity() {
                             CrashUtils.init(logPath + File.separator + "crash")
                         }
                     }
+                    MMKV.initialize(PathUtils.getExternalStoragePath() + File.separator + "dp" + File.separator + "grid_config")
                     afterCallPermission()
                     finish()
                 }

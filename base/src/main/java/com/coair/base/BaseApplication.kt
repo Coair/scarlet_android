@@ -22,7 +22,6 @@ open class BaseApplication : Application() , ViewModelStoreOwner {
     override fun onCreate() {
         super.onCreate()
         Utils.init(this)
-        MMKV.initialize(PathUtils.getExternalStoragePath() + File.separator + "dp" + File.separator + "grid_config")
 
         val screenWidth = ScreenUtils.getScreenWidth()
         val screenHeight = ScreenUtils.getScreenHeight()
